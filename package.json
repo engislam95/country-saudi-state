@@ -1,0 +1,74 @@
+{
+  "_from": "country-saudi-state",
+  "_id": "country-saudi-state@1.0.4",
+  "_inBundle": false,
+  // "_integrity": "sha512-tDnjTFMbTD+UuTS0wGQBedu4IWl8yVpm4yfvs2n8WsAmKAfSsy75EEdXwhCiRuI/hXstlu11GtN6nYe4ugM4SA==",
+  "_location": "/country-saudi-state",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "country-saudi-state",
+    "name": "country-saudi-state",
+    "escapedName": "country-saudi-state",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/country-saudi-state/-/country-saudi-state-1.0.4.tgz",
+  "_shasum": "22a394ef20575a15524c8e7f059589130d7a5e67",
+  "_spec": "country-saudi-state",
+  "_where": "C:\\Users\\Salma\\Desktop\\ibtsm\\frontend",
+  "author": {
+    "name": "islam.baidaq@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/engislam95/country-saudi-state/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Library for fetching state of saudi arabia",
+  "devDependencies": {
+    "@types/jest": "^24.0.12",
+    "husky": "^1.3.1",
+    "jest": "^23.6.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "homepage": "https://github.com/engislam95/country-saudi-state#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
+  },
+  "keywords": [
+    "Country",
+    "State",
+    "City",
+    "GeoLocation",
+    "Search",
+    "Filter"
+  ],
+  "license": "GPL-3.0",
+  "main": "dist/index.js",
+  "name": "country-saudi-state",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engislam95/country-saudi-state.git"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "jest"
+  },
+  "types": "dist/index.d.ts",
+  "version": "1.0.4"
+}
